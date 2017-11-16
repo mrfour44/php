@@ -14,7 +14,7 @@
 	$res = $stmt->execute();
 	var_dump($res);
 	if ($res) {
-		通过PDOStatement对象的fetch()方法得到一条记录
+		// 通过PDOStatement对象的fetch()方法得到一条记录
 		$row = $stmt->fetch();
 		print_r($row);
 		// PDO::FETCH_ASSOC 返回的是一个关联数组 默认是PDO::FETCH_BOTH 返回关联+索引 PDO::FETCH_OBJ返回是一个对象

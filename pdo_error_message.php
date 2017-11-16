@@ -9,6 +9,6 @@
 		echo $pdo->errorCode();
 		echo "<br />";
 		// 错误信息 return Array 0=>SQLSTATE 1=>CODE 2=>INFO
-		print_r($pdo->errorInfo();)
+		print_r($pdo->errorInfo());
 	}
 ?>

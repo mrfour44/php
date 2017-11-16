@@ -15,7 +15,7 @@ EOF;
 		var_dump($res);
 
 		// 插入一条记录
-		$sql = 'INSERT user(username,password,email) VALUES("krislam", "'.md5('kris')'.", "magiczi@qq.com")';
+		$sql = 'INSERT user(username,password,email) VALUES("krislam", "123456", "magic@qq.com")';
 		
 		// echo($sql);
 		$res = $pdo->exec($sql);
